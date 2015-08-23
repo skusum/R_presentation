@@ -1,0 +1,60 @@
+Watch Your Weight
+========================================================
+author: Kusum Subedi
+date: 8/22/2015
+
+
+========================================================
+
+The National Institute of Health [NIH](http://www.nhlbi.nih.gov/web_resources/images/nih-branded-assets/nhlbi-logo.gif) has issued an index called Body Mass Index, BMI which can be used to determine whether you are: 
+- Underweight
+- Normal
+- Overweight
+- Obese
+
+============
+
+The Body Mass Index, BMI, a number, is a function of height and weight given as:
+
+
+BMI  <- 703*weight( lbs)/height( inches)^2
+
+For an adult male or female,if:
+- BMI is less than 18.5, you are Underweight.
+- BMI is greater than 18.5 but less than 25, you are Normal.
+- BMI is greater than 25 but less than 30, you are Overweight.
+- BMI is greater than 30, you are Obese.
+
+
+
+========================================================
+
+All you need to do is enter your weight and height, It will give your BMI.
+
+Here are couple of examples.
+
+```r
+BMI <- function(wt, ht) 703*wt/ht^2
+BMI(153, 63)
+```
+
+```
+[1] 27.09977
+```
+
+```r
+BMI(133, 60)
+```
+
+```
+[1] 25.97194
+```
+
+
+========================================================
+
+## Keep on checking your BMI !
+
+##  Watch your weight !! 
+
+##   Keep healthy !!!
